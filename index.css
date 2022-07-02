@@ -1,0 +1,38 @@
+body
+{
+    background-color: #1c1c1c;
+    font-family: 'Atkinson Hyperlegible';
+    /*color: #786de7;*/
+    color: #a663ff;
+    text-align: center;
+    margin-top: 15rem;
+    font-size: 1.8rem;
+}
+img
+{
+    width: 3rem;
+    display: flex;
+    margin-left: 1rem;
+}
+h1
+{
+    display: flex;
+}
+div.h1
+{
+    width: 29rem;
+    margin: auto auto -1.5rem auto;
+}
+.svg
+{
+    fill: #a663ff;
+}
+.script
+{
+    font-family: 'Space Mono';
+    font-size: 0.9rem;
+}
+canvas
+{
+    margin-bottom: -4rem;
+}
