@@ -6,9 +6,11 @@ document.write('<span style="color:#786de7"> Estás en: ' + ruta + '<span>');
 var d = document.getElementById('dibujo');
 var lienzo = d.getContext('2d');
 
-var texto = document.getElementById(texto_cariño);
+var texto = document.getElementById('texto_cariño');
 var botón_input = document.getElementById('botón');
 botón_input.addEventListener("click", dibujarPorClick);
+
+console.log(texto)
 
 var línea_der = 3;
 var línea_izq = 3;

@@ -44,6 +44,10 @@ canvas
     background-color: #1c1c1c;
     border-style: none;
     border-radius: 3rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    background-color: hsla(237, 28%, 43%, 0.26);
 }
 #botón:hover
 {
@@ -54,4 +58,9 @@ canvas
     font-family: 'Space Mono';
     border-radius: 3rem;
     text-align: center;
+    background-color: hsla(237, 28%, 43%, 0.26);
+    width: 6rem;
+    height: 2rem;
+    color: aliceblue;
+    border-style: none;
 }
