@@ -31,8 +31,27 @@ div.h1
 {
     font-family: 'Space Mono';
     font-size: 0.9rem;
+    margin-top: 2rem;
 }
 canvas
 {
     margin-bottom: -4rem;
+}
+#botón
+{
+    color:#a663ff;
+    font-family: 'Atkinson Hyperlegible';
+    background-color: #1c1c1c;
+    border-style: none;
+    border-radius: 3rem;
+}
+#botón:hover
+{
+    background-color: #00cf67;
+}
+#texto_cariño
+{
+    font-family: 'Space Mono';
+    border-radius: 3rem;
+    text-align: center;
 }
