@@ -69,3 +69,20 @@ canvas
     border-style: none;
     vertical-align: middle;
 }
+::selection
+{
+    background:#5555FF;
+    color:#D0E0FF;
+}
+ 
+::-moz-selection
+{
+    background: #5555FF;
+    color:#D0E0FF;
+}
+ 
+::-webkit-selection
+{
+    background:#5555FF;
+    color:#D0E0FF;
+}
