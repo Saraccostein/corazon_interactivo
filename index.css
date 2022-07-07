@@ -40,6 +40,7 @@ canvas
 #botón
 {
     color:#a663ff;
+    font-weight: 550;
     font-family: 'Atkinson Hyperlegible';
     background-color: #1c1c1c;
     border-style: none;
@@ -48,10 +49,13 @@ canvas
     height: 2rem;
     font-size: 1.3rem;
     background-color: hsla(237, 28%, 43%, 0.26);
+    text-align: center;
+    vertical-align: middle;
 }
 #botón:hover
 {
     background-color: #00cf67;
+    font-weight: 900;
 }
 #texto_cariño
 {
@@ -61,6 +65,7 @@ canvas
     background-color: hsla(237, 28%, 43%, 0.26);
     width: 6rem;
     height: 2rem;
-    color: aliceblue;
+    color:#00cf67;
     border-style: none;
+    vertical-align: middle;
 }
