@@ -1,7 +1,6 @@
 
 var ruta = window.location;
 console.log(ruta);
-document.write('<span style="color:#786de7"> Estás en: ' + ruta + '<span>');
 
 var d = document.getElementById('dibujo');
 var lienzo = d.getContext('2d');

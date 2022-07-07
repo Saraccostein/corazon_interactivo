@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta author="Marco Saracco">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin>
+    <link href="https://api.fonts.coollabs.io/css2?family=Space+Mono&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="assets/corazón_morado.svg" type="img/svg">
     <link rel="stylesheet" href="index.css" type="text/css">
     <title>Platzi Experimets</title>
@@ -16,11 +15,17 @@
     <canvas width="300" height="300" id="dibujo"></canvas>
 
     <div class="h1">
-        <h1>Te quiero mucho </h1>
+        <h1>Te quiero mucho</h1>
     </div>
 
+    <script>
+        var ruta = window.location;
+    console.log(ruta);
+    document.write('<span> Estás en: ' + ruta + '</span>');
+    </script>
+
     <input type="text" id="texto_cariño">
-    <input type="button" value="♡" id="botón">
+    <input type="button" value="♡" id="botón" alt>
 
     <div class="script">
         <script src="index.js" ></script>
